@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Houses Array</title>
+</head>
+<body>
+  <h2>Task 4: Software Houses Array Operations</h2>
+  <pre id="output"></pre>
+
+  <script>
+    let companies = ["NetSol", "Systems Ltd", "Arbisoft", "10Pearls", "Afiniti"];
+
+    // 1. Remove first
+    companies.shift();
+    
+    // 2. Remove middle & add new
+    const middleIndex = Math.floor(companies.length / 2);
+    companies.splice(middleIndex, 1, "NewTech");
+
+    // 3. Add at end
+    companies.push("Techlogix");
+
+    document.getElementById("output").textContent = 
+      `Final Array: [${companies.join(", ")}]`;
+    console.log("Final Companies:", companies);
+  </script>
+</body>
+</html>

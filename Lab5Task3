@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us — Meet the Owners</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: none;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    }
+    .card-img-top {
+      height: 220px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 1.5rem;
+    }
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #333;
+    }
+    .card-text {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body class="container py-4">
+
+  <h1 class="mb-4 text-center">About Us — Meet the Owners</h1>
+  <p class="mb-5 text-center lead">
+    We are a founder-run company that values craftsmanship, transparency and long-term relationships. 
+    Below are the owners who steer the company strategy and culture.
+  </p>
+
+  <div class="row g-4 justify-content-center">
+
+    <!-- Card 1 -->
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="pexels-soldiervip-1391498.jpg" class="card-img-top" alt="Aisha">
+        <div class="card-body">
+          <h5 class="card-title">Co-Founder</h5>
+          <p class="card-text">
+            Aisha co-founded the company in 2017 with a mission to simplify complex workflows. 
+            She comes from a product design background and loves turning messy problems into elegant experiences.
+          </p>
+          <p class="small text-muted">
+            <strong>Based in:</strong> Karachi — GMT+5 | <strong>Joined:</strong> 2017
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="istockphoto-1150742429-612x612.jpg" class="card-img-top" alt="Ayesha">
+        <div class="card-body">
+          <h5 class="card-title">Engineering Department</h5>
+          <p class="card-text">
+            Ayesha leads engineering and is passionate about high-performance systems and developer tools. 
+            She previously built backends for scale and enjoys woodworking.
+          </p>
+          <p class="small text-muted">
+            <strong>Based in:</strong> Karachi — GMT+5 | <strong>Joined:</strong> 2017
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="chen-zhe-yuan.jpg" class="card-img-top" alt="Omar Rizvi">
+        <div class="card-body">
+          <h5 class="card-title">Omar Rizvi — Co-Founder & CTO</h5>
+          <p class="card-text">
+            Omar leads engineering and is passionate about high-performance systems and developer tools. 
+            He previously built backends for scale and enjoys woodworking.
+          </p>
+          <p class="small text-muted">
+            <strong>Based in:</strong> Lahore | <strong>Joined:</strong> 2017
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-3">
+      <div class="card h-100">
+        <img src="chenzheyuan.jpg" class="card-img-top" alt="Mira Ali">
+        <div class="card-body">
+          <h5 class="card-title">Mira Ali — Head of Strategy</h5>
+          <p class="card-text">
+            Mira manages strategic partnerships and operations. She's focused on sustainable growth and building strong partner networks.
+          </p>
+          <p class="small text-muted">
+            <strong>Based in:</strong> Islamabad | <strong>Joined:</strong> 2019
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

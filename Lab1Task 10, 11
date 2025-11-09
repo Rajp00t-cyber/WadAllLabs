@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub SignInPage</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <center><i><h3>Congrats! You have successfully completed your registeration.SignIn to continue.</h3></i></center>
+    <center><i><h1>TechHub SignIn Page</h1></i></center>
+    <br>
+    <br>
+    <center><Label><b>Username</b></Label></center>
+    <br>
+    <center><input type="text" placeholder="EnterUsername"></center>
+    <br>
+    <br>
+    <center><b><Label>CreatePassword</Label></b></center>
+    <br>
+    <center><input type="password" placeholder="EnterPassword"></center>
+    <br>
+    <br>
+    <br>
+    <center><a href="TechHubDash.html"><button><B>SignIn</B></button></a></center>
+    <br>
+    <br>
+</body>
+</html>

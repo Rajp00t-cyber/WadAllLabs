@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHubRegisteration</title>
+</head>
+<body> 
+    <br>
+    <br>
+    <br>
+    <center><i><h1>TechHub Registration Form</h1></i></center>
+    <br>
+    <br>
+    <center><Label><b>Username</b></Label></center>
+    <br>
+    <center><input type="text" placeholder="EnterUsername"></center>
+    <br>
+    <br>
+    <center><Label><b>Enter Valid Email</b></Label></center>
+    <br>
+    <center><input type="email" placeholder="EnterEmail"></center>
+    <br>
+    <br>
+    <center><Label><b>CreatePassword</b></Label></center>
+    <br>
+    <center><input type="password" placeholder="EnterPassword"></center>
+    <br>
+    <br>
+    <center><Label><b>ConfirmPassword</b></Label></center>
+    <br>
+    <center><input type="password" placeholder="EnterPasswordAgain"></center>
+    <br>
+    <br>
+    <br>
+    <center><h6><b></b><p>By clicking the submit button, the user agrees to the TechHub's <a href="https://tech-hub.tech/privacy-policy/">Terms & Privacy.</a></p></b></h6></center>
+    <center><Label><b>Submit your Info</b></Label></center>
+    <br>
+    <center><a href="Signin.html"><button>Login</button></a></center>
+    <br>
+    <br>
+</body>
+</html>

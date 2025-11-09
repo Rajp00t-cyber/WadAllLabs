@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1: Change Text Color</title>
+</head>
+<body>
+  <h1 id="text">Hello World!</h1>
+  <button id="colorBtn">Change Color</button>
+
+  <script>
+    const textElement = document.getElementById("text");
+    const btn = document.getElementById("colorBtn");
+
+    btn.addEventListener("click", function() {
+      textElement.style.color = "red";
+      console.log("Text color changed to red!");
+    });
+  </script>
+</body>
+</html>

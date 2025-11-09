@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Grading System</title>
+</head>
+<body>
+  <h2>Student Grading System</h2>
+  <p>Enter your obtained marks (0–100) in the prompt.</p>
+
+  <script>
+    let score = prompt("Enter your Obtained Marks (0-100):");
+    score = Number(score);
+
+    if (isNaN(score)) {
+      document.write("<h3 style='color:red;'>Invalid input! Please enter a number.</h3>");
+    } else if (score >= 80 && score <= 100) {
+      document.write("<h3 style='color:green;'>Grade: A</h3>");
+    } else if (score >= 70 && score <= 79) {
+      document.write("<h3 style='color:blue;'>Grade: B</h3>");
+    } else if (score >= 60 && score <= 69) {
+      document.write("<h3 style='color:orange;'>Grade: C</h3>");
+    } else if (score >= 50 && score <= 59) {
+      document.write("<h3 style='color:purple;'>Grade: D</h3>");
+    } else if (score >= 0 && score <= 49) {
+      document.write("<h3 style='color:red;'>Grade: F</h3>");
+    } else {
+      document.write("<h3 style='color:red;'>Invalid score! Must be between 0 and 100.</h3>");
+    }
+  </script>
+</body>
+</html>

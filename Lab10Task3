@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 - Clone and Insert</title>
+</head>
+<body>
+  <h1>Task 3: Clone Node</h1>
+  <p id="original">Original Paragraph</p>
+  <p id="insertHere">Insert cloned here</p>
+  <button onclick="cloneAndInsert()">Clone & Insert</button>
+
+  <script>
+    function cloneAndInsert() {
+      const original = document.getElementById("original");
+      const insertPoint = document.getElementById("insertHere");
+      const clone = original.cloneNode(true);
+      clone.textContent = "Cloned Paragraph";
+      insertPoint.parentNode.insertBefore(clone, insertPoint);
+      console.log("Node cloned and inserted!");
+    }
+  </script>
+</body>
+</html>

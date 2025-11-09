@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 5: Form Validation</title>
+</head>
+<body>
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Enter Name" required>
+    <input type="email" id="email" placeholder="Enter Email">
+    <button type="submit">Submit</button>
+  </form>
+  <p id="message"></p>
+
+  <script>
+    const form = document.getElementById("myForm");
+    const message = document.getElementById("message");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+
+      if (!name) {
+        message.textContent = "Name is required!";
+        message.style.color = "red";
+      } else if (!email.includes("@")) {
+        message.textContent = "Invalid email!";
+        message.style.color = "red";
+      } else {
+        message.textContent = "Form submitted successfully!";
+        message.style.color = "green";
+        form.reset();
+      }
+      console.log("Form validation triggered");
+    });
+  </script>
+</body>
+</html>

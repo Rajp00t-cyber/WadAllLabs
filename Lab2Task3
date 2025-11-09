@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <br><br><br><br>
+    <center><i><h1>Registration Form</h1></i></center>
+    <br><br>
+
+    <center><label><b>Username</b></label></center>
+    <br>
+    <center><input type="text" placeholder="EnterUsername" required></center>
+    <br><br>
+
+    <center><label><b>Enter Valid Email</b></label></center>
+    <br>
+    <center><input type="email" placeholder="EnterEmail" required></center>
+    <br><br>
+
+    <center><label><b>Create Password</b></label></center>
+    <br>
+    <center><input type="password" placeholder="EnterPassword" required></center>
+    <br><br>
+
+    <center><label><b>Submit your Info</b></label></center>
+    <br>
+    <center><a href="Loginpage.html"><button>Submit</button></a></center>
+    <br><br>
+</body>
+</html>

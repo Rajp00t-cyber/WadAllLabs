@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 5 - Add List Item</title>
+  <style>
+    h1 { color: black; }
+    ul { list-style: none; }
+  </style>
+</head>
+<body>
+  <h1>Task 5 = Add New List Item</h1>
+  <ul id="myList">
+    <li>Apple</li>
+    <li>Banana</li>
+  </ul>
+  <button onclick="addItem()">Add Item</button>
+
+  <script>
+    function addItem() {
+      let list = document.getElementById("myList");
+      let newItem = document.createElement("li");
+      newItem.textContent = "New Fruit";
+      list.appendChild(newItem);
+    }
+  </script>
+</body>
+</html>

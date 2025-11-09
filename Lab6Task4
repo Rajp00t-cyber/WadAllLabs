@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Type Checker</title>
+</head>
+<body>
+  <h2>Check if Number is Positive, Negative, or Zero</h2>
+
+  <script>
+    let value = parseFloat(prompt("Enter a number:"));
+
+    if (isNaN(value)) {
+      alert("Not a valid number!");
+    } else if (value > 0) {
+      alert(value + " is POSITIVE");
+    } else if (value < 0) {
+      alert(value + " is NEGATIVE");
+    } else {
+      alert("The number is ZERO");
+    }
+  </script>
+</body>
+</html>

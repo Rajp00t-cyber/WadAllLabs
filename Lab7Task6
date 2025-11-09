@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vowel Counter Arrow Function</title>
+</head>
+<body>
+  <h2>Task 6: Count Vowels (Arrow Function)</h2>
+  <pre id="output"></pre>
+
+  <script>
+    const countVowelsArrow = (str) => {
+      const vowels = ['a', 'e', 'i', 'o', 'u'];
+      let count = 0;
+      str = str.toLowerCase();
+
+      for (let char of str) {
+        if (vowels.includes(char)) count++;
+      }
+      return count;
+    };
+
+    const text = "Programming is Fun";
+    const result = countVowelsArrow(text);
+
+    document.getElementById("output").textContent = 
+      `String: "${text}"\nVowels Count: ${result}`;
+    console.log("Arrow Function - Vowels:", result);
+  </script>
+</body>
+</html>

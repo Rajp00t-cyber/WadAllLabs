@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Validation</title>
+</head>
+<body>
+  <h2>Login System</h2>
+
+  <script>
+    let username = prompt("Enter Username:");
+    let password = prompt("Enter Password:");
+
+    const validUser = "admin";
+    const validPass = "12345";
+
+    if (username === validUser && password === validPass) {
+      alert("Login Successful! Welcome, " + username);
+    } else if (username !== validUser) {
+      alert("Invalid Username!");
+    } else {
+      alert("Invalid Password!");
+    }
+  </script>
+</body>
+</html>

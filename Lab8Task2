@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2: Toggle Visibility</title>
+</head>
+<body>
+  <p id="hiddenText" style="display: none;">This text is hidden!</p>
+  <button id="toggleBtn">Toggle Text</button>
+
+  <script>
+    const hiddenText = document.getElementById("hiddenText");
+    const btn = document.getElementById("toggleBtn");
+    let isVisible = false;
+
+    btn.addEventListener("click", function() {
+      if (isVisible) {
+        hiddenText.style.display = "none";
+        btn.textContent = "Show Text";
+      } else {
+        hiddenText.style.display = "block";
+        btn.textContent = "Hide Text";
+      }
+      isVisible = !isVisible;
+      console.log("Visibility toggled!");
+    });
+  </script>
+</body>
+</html>

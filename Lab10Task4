@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4 - Replace Child</title>
+</head>
+<body>
+  <h1>Task 4: Replace Child</h1>
+  <div id="parent">
+    <p id="child">Child to replace</p>
+  </div>
+  <button onclick="replaceChild()">Replace</button>
+
+  <script>
+    function replaceChild() {
+      const parent = document.getElementById("parent");
+      const oldChild = document.getElementById("child");
+      const newChild = document.createElement("p");
+      newChild.textContent = "Replaced Child";
+      newChild.style.color = "red";
+      parent.replaceChild(newChild, oldChild);
+      console.log("Child replaced!");
+    }
+  </script>
+</body>
+</html>

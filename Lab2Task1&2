@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Student Table</title>
+</head>
+<body>
+    <br><br><br><br>
+    <center><i><h1>Form</h1></i></center>
+    <br><br>
+
+    <!-- First Name -->
+    <center><label><b>First Name</b></label></center>
+    <br>
+    <center><input type="text" placeholder="EnterFirstName"></center>
+    <br><br>
+
+    <!-- Last Name -->
+    <center><label><b>Last Name</b></label></center>
+    <br>
+    <center><input type="text" placeholder="EnterLastName"></center>
+    <br><br>
+
+    <!-- City (Read-only & Required) -->
+    <center><label><b>City Name</b></label></center>
+    <br>
+    <center><input type="text" value="YourCity" readonly required></center>
+    <br><br>
+
+    <!-- Zip Code (Max length 4) -->
+    <center><label><b>ZipCode</b></label></center>
+    <br>
+    <center><input type="text" placeholder="EnterZipcode" maxlength="4"></center>
+    <br><br>
+
+    <!-- Date of Birth -->
+    <center><label><b>Date of Birth</b></label></center>
+    <br>
+    <center><input type="date"></center>
+    <br><br>
+
+    <!-- Submit Button -->
+    <center><label><b>Submit your Info</b></label></center>
+    <br>
+    <center><input type="submit" value="Submit"></center>
+    <br><br>
+
+    <hr>
+    <br><br>
+
+    <!-- Student Table -->
+    <table style="width: 100%;" border="1">
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td>09876</td>
+            <td>Fawad Ahmad</td>
+            <td>3.1</td>
+        </tr>
+        <tr>
+            <td>12345</td>
+            <td>Mawa Waheed</td>
+            <td>2.71</td>
+        </tr>
+        <tr>
+            <td>67890</td>
+            <td>Eman Fatima</td>
+            <td>2.99</td>
+        </tr>
+        <tr>
+            <td>01928</td>
+            <td>Ahmad Khan</td>
+            <td>2.56</td>
+        </tr>
+        <tr>
+            <td>10923</td>
+            <td>Ahmad Fawad</td>
+            <td>2.34</td>
+        </tr>
+    </table>
+</body>
+</html>

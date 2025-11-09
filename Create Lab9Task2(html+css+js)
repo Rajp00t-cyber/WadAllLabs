@@ -1,0 +1,30 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 - Change Paragraph HTML</title>
+  <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+  <h1>Task 2 = Change Paragraph HTML</h1>
+  <p id="demo">Original content of the paragraph.</p>
+  <script src="task2.js"></script>
+</body>
+</html>
+
+css
+
+h1 {
+  color: black;
+}
+#demo {
+  color: black;
+}
+
+js
+
+let demoPara = document.getElementById("demo");
+demoPara.innerHTML = "New Text bla bla <b>bold text</b> ehm ehm whatever.";

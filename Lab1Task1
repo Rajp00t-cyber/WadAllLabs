@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub</title>
+</head>
+<body>
+    <br>
+    <br>
+    <Center><h1>TechHub</h1></Center>
+    <h1><b>Welcome to TechHub — Your Gateway to the World of Technology</b></h1>
+    <p>TechHub is an <I>all-in-one</I> online platform <b>created for tech enthusiasts,
+         professionals, students, and lifelong learners</b> who are passionate about
+          technology and innovation. Whether you're just starting out or already
+         working in the tech field, TechHub brings together a wide range of high-quality 
+         resources to help you learn, grow, and stay up-to-date with the rapidly evolving
+          tech landscape.</p>
+
+          <p>Explore a <I>diverse library of content that covers everything from 
+            programming languages and web development to cybersecurity, 
+            artificial intelligence, data science, cloud computing,</I> and beyond. 
+            Access <I>in-depth tutorials, expert-written articles, downloadable tools, 
+            video lessons, and curated news updates</I> — all designed to make complex 
+            topics easy to understand and apply.</p>
+
+            <p>By registering on TechHub, 
+                you unlock access to exclusive features like 
+                <I>personalized learning paths, saved content, user dashboards, 
+                hands-on coding challenges, discussion forums, and more</I>. Our 
+                platform is built to adapt to your goals, whether you're <I>building 
+                your first app, preparing for tech interviews, or looking to connect 
+                with like-minded professionals.</I></p>
+    <p><b>Join our growing global community and take your tech journey to the next level with TechHub — where learning, collaboration, and innovation come together.</b></p>
+    
+    <center><a href="RegisterationForm.html"><button>Start Registeration</button></a></center>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Category</title>
+</head>
+<body>
+  <h2>Age Category Classifier</h2>
+
+  <script>
+    let age = parseInt(prompt("Enter your age:"));
+
+    if (isNaN(age) || age < 0) {
+      alert("Please enter a valid age!");
+    } else if (age <= 12) {
+      alert("You are a Child");
+    } else if (age <= 19) {
+      alert("You are a Teenager");
+    } else if (age <= 59) {
+      alert("You are an Adult");
+    } else {
+      alert("You are a Senior");
+    }
+  </script>
+</body>
+</html>

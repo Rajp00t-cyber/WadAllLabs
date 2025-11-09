@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uppercase Strings - for...of</title>
+</head>
+<body>
+  <h2>Task 3: Convert to Uppercase</h2>
+  <pre id="output"></pre>
+
+  <script>
+    const words = ["hello", "world", "javascript", "loop"];
+    const upperWords = [];
+
+    for (let word of words) {
+      upperWords.push(word.toUpperCase());
+    }
+
+    document.getElementById("output").textContent = 
+      `Original: [${words.join(", ")}]\nUppercase: [${upperWords.join(", ")}]`;
+    console.log("Uppercase:", upperWords);
+  </script>
+</body>
+</html>

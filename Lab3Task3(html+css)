@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YTChannel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>EternalSparkMotivationalStories</h1>
+  </header>
+
+  <nav class="navbar">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.youtube.com/channel/UCqU8kweNbci69hZAWbmDfmg" target="_blank">YTChannel</a>
+  </nav>
+
+  <main>
+    <section class="sidebar">
+      <h3>Content:</h3>
+      <a href="videos.html">Videos</a>
+      <a href="shorts.html">Shorts</a>
+      <a href="playlists.html">Playlists</a>
+    </section>
+
+    <section class="content">
+      <h2>Welcome to My YouTube channel</h2>
+      <p>
+        Discover daily doses of motivation and wisdom through powerful quotes.<br>
+        Get inspired by real-life stories that spark hope and positivity.<br>
+        Learn how to overcome struggles and unlock your true potential.<br>
+        Stay motivated with uplifting words that fuel success and growth.<br>
+        Join our community and start your journey towards a better, brighter you.<br>
+      </p>
+    </section>
+
+    <aside class="rightbar">
+      <img src="Image2.jpg" alt="Motivational Image">
+    </aside>
+  </main>
+
+  <footer>
+    <p>2025 Rida Rajpoot's Website | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
+
+css
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #cfcfcf;
+  color: #333;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 28px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 350px;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 15px;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: blue;
+  text-decoration: none;
+}
+
+.content {
+  width: 55%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rightbar {
+  width: 20%;
+  text-align: center;
+}
+
+.rightbar img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

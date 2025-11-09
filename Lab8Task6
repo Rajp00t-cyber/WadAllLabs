@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 6: Digital Clock</title>
+</head>
+<body>
+  <h1 id="clock"></h1>
+  <button id="startBtn">Start Clock</button>
+  <button id="stopBtn">Stop Clock</button>
+
+  <script>
+    let clockInterval;
+
+    function updateClock() {
+      const now = new Date();
+      document.getElementById("clock").textContent = now.toLocaleTimeString();
+    }
+
+    const startBtn = document.getElementById("startBtn");
+    const stopBtn = document.getElementById("stopBtn");
+
+    startBtn.addEventListener("click", function() {
+      updateClock();
+      clockInterval = setInterval(updateClock, 1000);
+      console.log("Clock started");
+    });
+
+    stopBtn.addEventListener("click", function() {
+      clearInterval(clockInterval);
+      console.log("Clock stopped");
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Even Numbers - for...of</title>
+</head>
+<body>
+  <h2>Task 1: Even Numbers using for...of</h2>
+  <pre id="output"></pre>
+
+  <script>
+    const numbers = [12, 5, 8, 130, 44, 7, 22];
+    const evens = [];
+
+    for (let num of numbers) {
+      if (num % 2 === 0) {
+        evens.push(num);
+      }
+    }
+
+    document.getElementById("output").textContent = 
+      `Array: [${numbers}]\nEven Numbers: [${evens.join(", ")}]`;
+    console.log("Even Numbers:", evens);
+  </script>
+</body>
+</html>

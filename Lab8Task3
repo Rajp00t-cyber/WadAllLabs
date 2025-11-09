@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3: Dynamic List</title>
+</head>
+<body>
+  <ul id="myList">
+    <li>Item 1</li>
+  </ul>
+  <input type="text" id="itemInput" placeholder="Enter new item">
+  <button id="addBtn">Add Item</button>
+  <button id="removeBtn">Remove Last Item</button>
+
+  <script>
+    const list = document.getElementById("myList");
+    const input = document.getElementById("itemInput");
+    const addBtn = document.getElementById("addBtn");
+    const removeBtn = document.getElementById("removeBtn");
+
+    addBtn.addEventListener("click", function() {
+      const newItem = document.createElement("li");
+      newItem.textContent = input.value || "New Item";
+      list.appendChild(newItem);
+      input.value = "";
+      console.log("Item added!");
+    });
+
+    removeBtn.addEventListener("click", function() {
+      if (list.lastChild) {
+        list.removeChild(list.lastChild);
+        console.log("Item removed!");
+      }
+    });
+  </script>
+</body>
+</html>

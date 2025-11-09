@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 6 - Remove Last Item</title>
+  <style>
+    h1 { color: black; }
+    ul { list-style: none; }
+  </style>
+</head>
+<body>
+  <h1>Task 6 = Remove Last List Item</h1>
+  <ul id="myList">
+    <li>Red</li>
+    <li>Green</li>
+    <li>Blue</li>
+  </ul>
+  <button onclick="removeLast()">Remove Last</button>
+
+  <script>
+    function removeLast() {
+      let list = document.getElementById("myList");
+      if (list.lastChild) {
+        list.removeChild(list.lastChild);
+      }
+    }
+  </script>
+</body>
+</html>
